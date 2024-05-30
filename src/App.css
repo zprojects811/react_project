@@ -1,0 +1,312 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.grand-father{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+}
+
+.father{
+  display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    background-color: #EEE;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 38%;
+    margin-left: 38%;
+}
+
+input{
+  border: none;
+  padding: 20px;
+  font-size: 17px;
+}
+
+input:focus {
+  outline: none;
+}
+
+label{
+  font-family: 'Playpen Sans', cursive;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.submit{
+    margin-top: 25px;
+    color: white;
+    background-color: black;
+    border: none;
+    height: 45px;
+    width: 200px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.submit:hover{
+  background-color: white;
+  color: black;
+  border: 2px black solid;
+}
+
+.button-father{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px
+}
+
+hr{
+  width: 350px;
+  margin-top: -1px;
+}
+
+.sign-up-word{
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+}
+
+
+.header{
+  border-bottom: 2px solid #333;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  padding-bottom: 10px;
+  position: relative;
+  z-index: 100;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  background-color: #EEE;
+  margin-top: 0px;
+  justify-content: space-between;
+  height: 55px;
+  gap: 2px;
+}
+
+header ul div{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 2px;
+  height: inherit;
+}
+
+header ul div .nav{
+  font-size: 20px;
+  background-color: #EEE;
+  color: black;
+  width: 150px;
+  height: 65px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+  /* font-family: 'Playpen Sans', cursive; */
+}
+
+header ul div .nav:hover{
+  background-color: black;
+  color: white;
+}
+
+.father-top{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #EEE;
+  border-bottom: 2px solid #333;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 100;
+}
+
+/* .father-top:hover {
+  transform: scale(1.1);
+} */
+
+.topbar-title{
+  /* font-family: 'Playpen Sans', cursive; */
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 40px;
+  height: fit-content;
+  margin-left: 60px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.topbar-btn{
+  font-size: 20px;
+  background-color: #EEE;
+  color: black;
+  width: 150px;
+  height: 91px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.topbar-btn:hover{
+  background-color: black;
+  color: white;
+}
+
+.side{
+  font-size: 15px;
+  background-color: gray;
+  color: white;
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.side:hover{
+  background-color: #EEE;
+  color: #1f89b9;
+}
+
+.father-side{
+  height: 100vh;
+  background-color: gray;
+  width: fit-content;
+}
+
+.side-and-content{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.dashboard-content{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: -webkit-fill-available;
+}
+
+.table1{
+  border: 1px solid #ccc;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 85vh;
+  /* height: 15vh; */
+  text-align: center;
+  margin-top: 7vh;
+}
+
+.table1 tr, td , th {
+  border: 1px solid #ccc;
+}
+
+.tr-head{
+  background-color: #1f89b9;
+  color: white;
+}
+
+td #update{
+  color: blue;
+  cursor: pointer;
+}
+
+td #delete{
+  color: red;
+  cursor: pointer;
+}
+
+.action{
+  margin-top: 2.5%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  border: none;
+}
+
+
+.updateUser{
+  border: solid black 2px;
+  border-radius: 5px;
+}
+
+.updateUser label{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#updateUserFather{
+  margin-top: -10vh;
+}
+
